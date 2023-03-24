@@ -16,9 +16,9 @@ navegador.get('https://sistema.ssw.inf.br/bin/ssw0422')
 #preenchimento de informações - 002
 
 navegador.find_element('xpath', '//*[@id="1"]').send_keys("TTJ")
-navegador.find_element('xpath', '//*[@id="2"]').send_keys("47468497818")
-navegador.find_element('xpath', '//*[@id="3"]').send_keys("Gustavo")
-navegador.find_element('xpath', '//*[@id="4"]').send_keys("4653")
+navegador.find_element('xpath', '//*[@id="2"]').send_keys("33333333333")
+navegador.find_element('xpath', '//*[@id="3"]').send_keys("programador")
+navegador.find_element('xpath', '//*[@id="4"]').send_keys("2222")
 
 #Entrada do site TJB - 003
 navegador.find_element('xpath', '//*[@id="5"]').click()
